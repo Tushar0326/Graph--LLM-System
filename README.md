@@ -1,6 +1,6 @@
 Graph LLM System (AI-Powered Data Explorer)
-🧠 Overview
 
+🧠 Overview
 This project is a full-stack AI system that allows users to query structured data using natural language. It converts user queries into SQL using an LLM, executes them on a database, and visualizes relationships using an interactive graph.
 
 ✨ Key Features
