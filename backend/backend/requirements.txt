@@ -1,0 +1,7 @@
+django
+djangorestframework
+networkx
+groq
+python-dotenv
+gunicorn
+django-cors-headers
