@@ -16,8 +16,9 @@ Including another URLconf
 """
 
 from django.urls import path
-from core.views import get_graph
+from core.views import get_graph, query_data
 
 urlpatterns = [
     path("graph/", get_graph),
+    path("query/", query_data),
 ]

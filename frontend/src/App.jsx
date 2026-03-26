@@ -4,17 +4,16 @@ import Chat from "./components/Chat";
 function App() {
   return (
     <div style={{ display: "flex", height: "100vh" }}>
-      
-      {/* Left side → Graph */}
-      <div style={{ flex: 1 }}>
-        <Graph />
-      </div>
+  
+  {/* Graph */}
+  <div style={{ width: "50%", background: "#0f172a" }}>
+    <Graph />
+  </div>
 
-      {/* Right side → Chat */}
-      <div style={{ flex: 1, padding: "20px" }}>
-        <Chat />
-      </div>
-
+  {/* Chat */}
+  <div style={{ width: "50%", padding: "20px", background: "#f9fafb" }}>
+    <Chat />
+  </div>
     </div>
   );
 }
